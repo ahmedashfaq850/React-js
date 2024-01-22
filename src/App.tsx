@@ -1,9 +1,10 @@
-import OtpScreen from "./components/OtpScreen";
+import Toastify from "./components/Toastify";
+
 
 
 const App = () => {
-  return <div className="flex  items-center h-full flex-col">
-    <OtpScreen />
+  return <div className="flex items-center justify-center h-full flex-col">
+    <Toastify />
   </div>;
 };
 
