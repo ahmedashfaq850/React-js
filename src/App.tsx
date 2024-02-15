@@ -6,6 +6,7 @@ import ColorGenerator from "./components/ColorGenerator";
 import OtpScreen from "./components/OtpScreen";
 import Toastify from "./components/Toastify";
 import ReactSignal from "./components/ReactSignal";
+import MultiSelect from "./components/MultiSelect";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/optscreen" element={<OtpScreen />} />
         <Route path="/toastify" element={<Toastify />} />
         <Route path="/react-signal" element={<ReactSignal />} />
+        <Route path="/multi-select" element={<MultiSelect />} />
       </Routes>
     </div>
   );
