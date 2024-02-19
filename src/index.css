@@ -7,3 +7,25 @@
 html, body, #root{
     height: 100%;
 }
+
+
+
+
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    margin-right: 10px;
+}
+
+.active{
+    background-color: rgb(65, 163, 255);
+}
+
+.complete{
+    background-color: greenyellow;
+}

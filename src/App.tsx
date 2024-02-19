@@ -7,6 +7,10 @@ import OtpScreen from "./components/OtpScreen";
 import Toastify from "./components/Toastify";
 import ReactSignal from "./components/ReactSignal";
 import MultiSelect from "./components/MultiSelect";
+import StepperForm from "./components/StepperForm";
+import DataFetchUsingQuery from "./components/UseQuery/DataFetchUsingQuery";
+import ReactUseForm from "./components/ReactUseForm";
+import ReactYUPForm from "./components/ReactYUPForm";
 
 const App = () => {
   return (
@@ -22,6 +26,10 @@ const App = () => {
         <Route path="/toastify" element={<Toastify />} />
         <Route path="/react-signal" element={<ReactSignal />} />
         <Route path="/multi-select" element={<MultiSelect />} />
+        <Route path="/Stepper-form" element={<StepperForm />} />
+        <Route path="/fetch-query" element={<DataFetchUsingQuery />} />
+        <Route path="/react-hook-form" element={<ReactUseForm />} />
+        <Route path="/react-yup-form" element={<ReactYUPForm />} />
       </Routes>
     </div>
   );
